@@ -1,0 +1,21 @@
+.x-container {
+  border-bottom: 1px solid var(--box-outline);
+  width: 100%;
+
+  &:hover {
+    border-color: var(--main-color-green);
+  }
+
+  > input {
+    border: none;
+    background-color: #fff;
+    padding: 4px 11px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    height: 38px;
+    display: inline-block;
+  }
+}
